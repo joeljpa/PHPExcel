@@ -1,8 +1,8 @@
 # What's here
 
-Due to lack of resources at my workplace and not being allowed, I simply could could not migrate to PhpSpreadsheet.
+I simply could could not migrate to PhpSpreadsheet due to my workplace setting.
 
-My project used PHPExcel a lot and eventually I ended up modifying its core code to change some styling and color schemes.
+My workplace's legacy project used PHPExcel a lot and eventually I ended up modifying its core code to change some styling and color schemes which the original version didn't have.
 
 That's what's here. Branch 1.8 is the fork and 1.8.1j is original version code (1.8->1.8.1 if I'm not mistaken) changes along with my changes.
 

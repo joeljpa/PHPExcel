@@ -1,3 +1,5 @@
+Fork not exactly in sync with vendor folder. Vendor folder has 1.8.1 while this is based on the branch 1.8. Need to sync via the release rather than branch.
+
 # What's here
 
 I simply could could not migrate to PhpSpreadsheet due to my workplace setting.

@@ -949,7 +949,8 @@ class PHPExcel_Reader_Excel2007 extends PHPExcel_Reader_Abstract implements PHPE
 												(string)$cfRule["type"] == PHPExcel_Style_Conditional::CONDITION_NONE ||
 												(string)$cfRule["type"] == PHPExcel_Style_Conditional::CONDITION_CELLIS ||
 												(string)$cfRule["type"] == PHPExcel_Style_Conditional::CONDITION_CONTAINSTEXT ||
-												(string)$cfRule["type"] == PHPExcel_Style_Conditional::CONDITION_EXPRESSION
+                                                (string)$cfRule["type"] == PHPExcel_Style_Conditional::CONDITION_EXPRESSION ||
+                                                (string)$cfRule["type"] == PHPExcel_Style_Conditional::CONDITION_DUPLICATEVALUES
 											) && isset($dxfs[intval($cfRule["dxfId"])])
 										) {
 											$conditionals[(string) $conditional["sqref"]][intval($cfRule["priority"])] = $cfRule;
